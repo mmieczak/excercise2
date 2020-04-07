@@ -2,9 +2,9 @@ public class DrinksLibrary {
 
     public static void main(String[] args) {
         Drink drink = new Drink();
-        drink.name="Sex on the Beach";
-        drink.price=9.99d;
-        drink.isAlco=true;
+        drink.name = "Sex on the Beach";
+        drink.price = 9.99d;
+        drink.isAlco = true;
 
         drink.ingredient1 = new Ingredient();
         drink.ingredient2 = new Ingredient();
@@ -23,11 +23,11 @@ public class DrinksLibrary {
 
         System.out.println("Drink:\t\t" + drink.name);
         System.out.println("Contains alcohol:\t" + drink.isAlco);
-        System.out.println( "Ingredients:\t"   + drink.ingredient1.name + "(" + drink.ingredient1.amount + "ml)" +
-                " + "           + drink.ingredient2.name + "(" + drink.ingredient2.amount + "ml)" +
-                " + "           + drink.ingredient3.name + "(" + drink.ingredient3.amount + "ml)" );
+        System.out.println("Ingredients:\t" + drink.ingredient1.name + "(" + drink.ingredient1.amount + "ml)" +
+                " + " + drink.ingredient2.name + "(" + drink.ingredient2.amount + "ml)" +
+                " + " + drink.ingredient3.name + "(" + drink.ingredient3.amount + "ml)");
         System.out.println("Volume:\t" + volume + "ml");
-        System.out.println("Price:\t\t" + drink.price + "$");
+        System.out.println("Price:\t" + drink.price + "$");
 
     }
 }
